@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - 'docker-dev'
+      - 'master'
   workflow_dispatch:
     inputs:
       tag:
